@@ -1,2 +1,2 @@
 # doctex
-.Doc/.docx to latex code with syntax highlighting as an MS office add in
+access to google spreadsheet and maintaining change streak 
