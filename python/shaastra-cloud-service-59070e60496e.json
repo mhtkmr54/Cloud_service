@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shaastra-cloud-service",
+  "private_key_id": "59070e60496e927e3d8cbe400f4aa9ff7e39ca52",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnVgqiuYVzO7TC\n9gd8uFYAzE67MWJ7SWFQd+AufkrDySRE4GOMmGM+6PD1tEqBZkB7Jrhw5VLcpECs\nT2dNF7O7Pfi5t1FsNdgBf2Tivb4OHbHrPFjw0N6yrwVPvZLenSSesb6GR0659w3L\nudGMEpM3opW2ERDblqHXfcy64Q0B6IMICFMCIGZxH2HyanqlZM2dzqeX4rCxD2eY\nmTgMKvSjrXo2sS1GS75L7Eh2pu43gdhS7LbPVBf2F8s+8bOIja3F46jw4FLhE7YQ\nqc+Wr+rXdHaHBMHQS2g9WOCClUWtXvtJcQ5I18TJ2ysj/y8WBah9Zub0Q0eLecBV\nEbBuTiGnAgMBAAECggEAH25j9QjP7kMqwuwfn+eoD+JQb4zpKKsx4kGCFHmYZYok\ni+NyD3iYO7rZd+1ziTbBqeAuCNaqZ9NaaoNHrg1jryoGzCuI2cCLYEyjkIt/ZXti\nbgMZ2bICAqIpZz7+lV4DAOP2G5bNTNUA/GFc4OikSnD5mgc+mWCD6cwxZnDbVp4d\noww6IOnQx7dZVo/qjVq9r+33i8+f1dmTUxBQ8wIkQ4K4YMIEYocWxXO5fRyTh6vr\nTt+VBh7AGhGSm2tIiAdVGHwKFWhS1oSwzqQOTGPQqKzecYbkVw7ltB239zNJdS5p\nPqAd8xAd2is4Jt/IsgIry0fbA7fzpgiYzLpOWnEG0QKBgQDo4QfWIpVXp+8DuoG6\nA5JB1JLqpU9n5tevYw+3BIjZXPYRbfsyFL/KLiB/WxoZFsWyzNxlNzWQJjR9A1w1\nSG+o0wnbyJOHQL75GcuwFzu7aLpYpzZM9xcN7FydO+l69gnlXLPEUH3yLuvn1oy8\nOqshJO+mH36PwW5+5jyZoAhDfQKBgQC38yOme7kbUJxHIvZUd0nPkUHnlY0C4mUd\nI94ve0dIyQvCt5u2eM4ZicJTF9jZiA+5/coHsOm0LIVAZ0y1NUO4VvCKXzF22Ahj\njhQ3B5/V1S2tm9EppppHiYVuozqwYOgQSctgcmwv+Uj4eekUHTe4WkL3OMcPbJ9u\naHzEMCb68wKBgC9c/SwHEpqmVA1NFG9RpKBw7IR+pJy8LWfFXP/bEz4qEv3OgYVZ\nBPzIzuE4FSG/KOxJkBWh2en8azZ1xX4swlDywxGJRMAAYhblsTCaORLPpP6822Vh\n57V0Og3cjorsmWylowYtXMAx3NblIvBxejaefYMq6qGwNJnol7CjBKs9AoGAFsE5\n+L83T7yyCE634Az9kXKrj2U9k0zEK02jj4YVdFiCXuztky3weNJEupipl4cwQta1\nJixpTINxXF0q7QOQw/3lNYi/Cq+AoigSMhh8WixLwT0UK63TSeQmIGCKwwTJ0DIA\nuYaOAYU51JroDTfsC58Gx6Q7Y5oRQswkGvTF7acCgYEAqVP/YPOV9QRdVJModhI0\nA7BSSw6rI5qBLAxyv07BL55WYBgmKuxFDW2BMeWMBIzu8YYfFHOgkcBf+4roDY5x\n/xVgj1V+dQBLVWgms/ocMWSgV7PbvISTqeA96uu3pcNCji54e8fQCRdhE9AiFvc0\n2xHX+Kbja0zQBqI3gtEiIo0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "quick-py@shaastra-cloud-service.iam.gserviceaccount.com",
+  "client_id": "113114271900995308181",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/quick-py%40shaastra-cloud-service.iam.gserviceaccount.com"
+}
