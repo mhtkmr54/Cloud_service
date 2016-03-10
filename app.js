@@ -12,6 +12,57 @@ var result = require('./routes/result.js');
 
 var app = express();
 
+var Spreadsheet = require('edit-google-spreadsheet');
+//export PEM_KEY="`cat shaastra-cloud-service.pem`";
+/*
+var google = require('googleapis');
+var OAuth2 = google.auth.OAuth2;
+var oauth2Client = new OAuth2('116597258143-0ucr316opcu5mcee172r43ho9n8sq134.apps.googleusercontent.com', 'C9Ja387Jx1pVK1fXDJ_aFY_', 'http://localhost:3000/');
+
+oauth2Client.setCredentials({
+  access_token: 'ACCESS TOKEN HERE',
+  refresh_token: 'REFRESH TOKEN HERE'
+});
+*/
+Spreadsheet.load({
+    debug: true,
+    spreadsheetName: 'test',
+    worksheetName: 'Sheet1',
+
+    oauth : {
+        email: 'shaastra-cld@shaastra-cloud-service.iam.gserviceaccount.com',
+        keyFile: 'google-oauth.pem'
+    }
+
+   /*oauth2: {
+      client_id: '116597258143-0ucr316opcu5mcee172r43ho9n8sq134.apps.googleusercontent.com',
+      client_secret: '-C9Ja387Jx1pVK1fXDJ_aFY_',
+      //refresh_token: 'token generated with get_oauth2_permission.js'
+    },*/
+
+/*
+  access_token: 'ACCESS TOKEN HERE',
+  refresh_token: 'REFRESH TOKEN HERE'
+}); */
+
+}, function sheetReady(err, spreadsheet) {
+
+    if (err) {
+        throw err;
+    }
+
+    spreadsheet.receive(function(err, rows, info) {
+        if (err) {
+            throw err;
+        }
+
+        console.dir(rows);
+        console.dir(info);
+    });
+
+});
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
